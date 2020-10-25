@@ -85,14 +85,14 @@ a{
     position: relative;
 }
 .equipe img {
-    vertical-align: middle;
+    
     border-style: none;
 }
 .people .name {
     background: rgb(4, 199, 248);
     color: #fff;
     text-align: center;
-    border-bottom-left-radius: 50%;
+    border-bottom-left-radius: 40%;
 }
 .text-n {
     color: #6c757d!important;
@@ -116,11 +116,27 @@ a{
    justify-content: space-between!important;
    margin-bottom: 50px;
 }
-.card-deck{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
+
 .get{
     padding-left: 100px;
+}
+.pics{
+    margin: 0 10px !important;
+}
+.inner, .name, .text-n{
+    border-radius: 10%;
+    margin: 0 10px;
+    
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.1);
+}
+.container5{
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: space-around!important;
+    width: max-content !important;
 }
