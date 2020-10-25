@@ -1,0 +1,21 @@
+.container-fluid{
+    width: 100%;
+    height: 650px;
+    background-attachment: fixed;
+    background-image: url(image/im1.jpg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: cover;
+    position: relative;
+    z-index: 1;
+}
+.container-fluid h1,p{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 300px;
+}
+span{
+    color: green;
+}

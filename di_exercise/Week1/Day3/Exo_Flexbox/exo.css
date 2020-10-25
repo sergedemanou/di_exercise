@@ -1,0 +1,143 @@
+body{
+    background-image: url(image/carte.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+h1{
+    padding: 0;
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2, p{
+    color: blue;
+}
+#section1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.number{
+    text-align: center;
+}
+.b1{
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    padding: 15px;
+}
+.b2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+    width: 200px;
+    height: 100px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+p{
+    align-self: center;
+    color: ivory;
+}
+img{
+    display: flex;
+    border-radius: 50%;
+    position: absolute;
+    align-self: center;
+    margin-top: 150px;
+}
+
+#bloc{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 80px;
+}
+#second{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+#b2{
+    background-color: indigo;
+    width: 200px;
+    height: 100px;
+    color: ivory;
+    text-align: center;
+}
+#b3{
+    background-color: rgb(59, 134, 37);
+    width: 200px;
+    height: 100px;
+    color: ivory;
+    text-align: center;
+}
+#premier{
+    display: flex;
+    flex-direction: column;
+}
+.color{
+    color: mediumblue;
+}
+#dernier{
+    display: flex;
+    flex-direction: column;
+}
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    #big{
+        display: flex;
+        justify-content: center;
+        flex-direction: column ;
+        flex-wrap: wrap;
+
+    }
+ }
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    body{
+        background-image: url(image/carte.png);
+        background-repeat: repeat;
+        background-attachment: scroll;
+        
+        
+    }
+
+ }
+
+@media all and (min-width: 480px) and (max-width: 768px) { 
+    #bloc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    img{
+        display: flex;
+        border-radius: 50%;
+        position: absolute;
+        align-self: left;
+        margin-top: 150px;
+        
+}
+
+@media all and (max-width: 480px) { 
+    #bloc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    img{
+        display: flex;
+        border-radius: 50%;
+        position: absolute;
+        align-self: left;
+        margin-top: 150px;
+   
+}

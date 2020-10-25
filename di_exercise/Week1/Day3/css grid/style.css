@@ -1,0 +1,31 @@
+.five{
+    grid-area: five;
+}
+.six{
+    grid-area: six;
+    
+}
+.seven{
+    grid-area: seven;
+    background-color: rgb(255, 238, 0);
+}
+.red{
+    background-color: rgb(255, 0, 0);
+}
+.blue{
+    background-color: rgb(25, 0, 255);
+}
+
+#container{
+    display: grid;
+    grid-template-rows: repeat(4, 200px);
+    grid-template-columns: 300px 1fr;
+    grid-template-areas: 
+    "one four"
+    "two five "
+    "three six "
+    "seven seven";
+    row-gap: 30px ;
+    column-gap: 40px;
+    
+}

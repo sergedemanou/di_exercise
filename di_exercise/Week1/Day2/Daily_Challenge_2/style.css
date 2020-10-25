@@ -1,0 +1,57 @@
+body{
+    top: 0;
+    background-image: url();
+}
+
+.nav{
+    background-color:  rgb(0, 109, 182);
+    text-align: center;
+    color: rgb(80, 80, 80);
+}
+img{
+    border-radius: 50%;
+}
+h2, #tel, #email{
+    color: honeydew;
+}
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 80%;
+    
+  }
+  .icon{
+    display: flex;
+    justify-content: center;
+  }
+  .fa:hover{
+      color: springgreen;
+      opacity: 50%;
+  }
+  h4{
+      padding: 0px 300px;
+      color: rgb(80, 80, 80);
+      text-align: center;
+  }
+  .contact{
+      display: flex;
+justify-content: space-around;
+  }
+  span{
+      padding-left: 83px;
+  }
+ h1{
+     text-align: center;
+     margin-top: 70px;
+ }
+  .formation{
+      color: rgb(19, 1, 63);
+      text-align: center;
+  }
+  .pro{
+      color: rgb(255, 255, 255);
+      background-color: rgb(0, 109, 182);
+  }

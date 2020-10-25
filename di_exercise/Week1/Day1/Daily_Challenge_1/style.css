@@ -1,0 +1,56 @@
+body{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+}
+.logo{
+    float: right;
+}
+#spider1{
+    float: left;
+   
+}
+#spider2{
+    float: right;
+   
+}
+section p{
+    padding: 0px 10px;
+}
+.ctn{
+    color: blanchedalmond;
+    font-size: 90%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav{
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    margin: 0px;
+}
+.nav a{
+    float: right;
+    text-decoration: none;
+    padding: 0px 10px;
+    border: 0;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+footer {
+    text-align: end;
+    margin-top: 100px;
+    margin-right: 650px;
+    justify-content: space-between;
+    
+}
+a{
+    color: rgb(255, 0, 0);
+    
+    
+}
+li{
+    display: inline;
+    list-style: none;
+    padding-bottom: 50px;
+    
+}
