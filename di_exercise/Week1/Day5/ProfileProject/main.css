@@ -88,7 +88,7 @@ a{
     
     border-style: none;
 }
-.people .name {
+#people .name {
     background: rgb(4, 199, 248);
     color: #fff;
     text-align: center;
@@ -119,6 +119,7 @@ a{
 
 .get{
     padding-left: 100px;
+    
 }
 .pics{
     margin: 0 10px !important;
@@ -137,6 +138,6 @@ a{
 .container5{
     display: flex!important;
     flex-direction: row!important;
-    justify-content: space-around!important;
+    justify-content: center!important;
     width: max-content !important;
 }
