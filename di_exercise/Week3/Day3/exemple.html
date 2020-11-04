@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag</title>
+</head>
+<body>
+   
+    <p draggable='true' ondragstart="drag(event)" id="bennie">A deplacer</p>
+	<div style="border: 2px solid blue; width: 100px;height: 100px;" ondrop="drop(event);" ondragover='dragover(event);' ondragenter="dragenter();" ondragleave="dragleave();" ></div>
+	<div style="overflow: hidden;"><h1 draggable='true' ondragstart="dragstart(event)" ondragend="dragend(event)">Move with coordinates</h1></div>
+	<script type="text/javascript">
+		let h1 = document.querySelector('h1');
+		console.log(h1.style.top);
+		function dragstart(event){
+			console.log(event.clientX+ ' '+event.clientY)
+		};
+		function dragend(event){
+			let ordonne = event.clientX;
+			let abcisses = event.clientY;
+			event.target.style.left = ordonne +'px';
+			event.target.style.top= abcisses+'px';
+			event.target.style.position ='absolute';
+			console.log(ordonne+' '+abcisses);
+		}
+		let text = document.getElementById('bennie');
+		function drag(event){
+			event.dataTransfer.setData('text',event.target.id);
+			console.log(event.target);
+		}
+		function dragover(event){
+			event.preventDefault();
+		}
+		function drop(event){
+			console.log(event.target);
+			event.preventDefault();
+			event.dataTransfer.getData('text');
+			event.target.appendChild(text);
+		}
+
+    </script>
+
+</body>
+</html>
