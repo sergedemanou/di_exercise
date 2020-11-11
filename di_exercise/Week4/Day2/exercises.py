@@ -72,5 +72,36 @@
 
                           # Exercise 8
 # Make a list of the multiples of 3 from 3 to 30. Use a for loop to print the numbers in your list.
-my_list = [x*3 for x in range(3, 31)]
-print(my_list)
+# array = []
+# for x in range(3, 31):
+#     if x%3 == 0:
+#      print(x)
+
+
+#                              # Exercise 9
+# # Use a for loop to find numbers between 1500 and 2700, which are divisible by 7 and multiples of 5.
+# nl=[]
+# for x in range(1500, 2701):
+#     if (x%7==0) and (x%5==0):
+#      print (x)
+
+
+
+                # Exercise 12: Cinemax
+# A movie theater charges different ticket prices depending on a person’s age.
+# if a person is under the age of 3, the ticket is free
+# if they are between 3 and 12, the ticket is $10;
+# and if they are over age 12, the ticket is $15 .
+# Apply it to a family, ask the user what the age of each of the people that want a ticket is.
+# Store the total cost of all the tickets for this group and print it out.
+# A group of teenagers is coming to your movie theater and want to see a movie that is restricted for people between 16 and 21 years old.
+# Write a program that ask every user their age, and then tell them which one can see the movie.
+# Tip: Try to add the allowed ones to a list.
+
+age = int(input("please enter your age :"))
+if age<3 :
+    print('the ticket is free')
+elif 3< age <12 :
+    print('the ticket is $10')
+else :
+    print('the ticket is $15')
