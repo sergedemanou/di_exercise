@@ -74,6 +74,7 @@ brand = {
     }
 }
 brand["number_stores"] = 2
+print("The clients of Zara are {}, {}, and {}")
 
 
 

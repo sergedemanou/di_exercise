@@ -85,6 +85,17 @@
 #     if (x%7==0) and (x%5==0):
 #      print (x)
 
+                          # Exercise 10: Favorite Fruits
+# Ask the user to type in his/her favorite fruit(s) (one or several fruits).
+# Hint : Use the input built in method. Ask the user to separate the fruits with a single space, eg. "apple mango cherry".
+# Store the favorite fruit(s) in a list. (How can we ‘convert’ a string of words into a list of words?).
+# Now that we have a list of fruits, ask the user to type in the name of any fruit.
+# If the user’s input is a fruit name existing in the list above, print “You chose one of your favorite fruits! Enjoy!”.
+# If the user’s input is NOT a fruit name existing in the list above, print, “You chose a new fruit. I hope you enjoy it too!”.
+# Bonus: Display the list in a user friendly way : add the word “and” before the last fruit in the list – but only if there are more than 1 favorites!
+
+
+
 
 
                 # Exercise 12: Cinemax
