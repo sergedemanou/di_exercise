@@ -13,6 +13,6 @@
 # print(filteredList)
 # a = list(map(lambda a: print('hello {}'.format(a), filteredList)))
 
-def say_hello():
-    print('hello')
-say_hello()
+# def say_hello():
+#     print('hello')
+# say_hello()
